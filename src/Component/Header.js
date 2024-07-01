@@ -17,7 +17,7 @@ export default function Header() {
    <div class="hidden md:block">
    <NavLink to={'/'}><span  class="px-4 uppercase text-white text-base font-bold whitespace-no-wrap font-Montserrat leading-normal tracking-tighter hover:text-green-500">Home</span></NavLink>
    <NavLink to={'/about'}><span class="px-4 uppercase text-white text-base font-bold whitespace-no-wrap font-Montserrat leading-normal tracking-tighter hover:text-green-500">About</span></NavLink>
-       <span class="px-4 uppercase text-white text-base font-bold whitespace-no-wrap font-Montserrat leading-normal tracking-tighter hover:text-green-500">Contact</span>
+       <a href='https://gotechark.com/contact/' target='_blank'><span class="px-4 uppercase text-white text-base font-bold whitespace-no-wrap font-Montserrat leading-normal tracking-tighter hover:text-green-500">Contact</span></a>
    </div>
     </div>
 </nav>
