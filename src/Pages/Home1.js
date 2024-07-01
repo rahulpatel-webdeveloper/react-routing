@@ -6,9 +6,9 @@ export default function Home1() {
     <div class="subpixel-antialiased font-Montserrat ">
 
 <main>
-    <section class="bg-blue-500 py-32 ">
+    <section class="bg-blue-500 py-32 ">      
         <figure class="container px-16 pt-12 mx-auto">            
-            <img class="mb-12 h-64 mx-auto" src="https://francescomansi.me/img/start-tailwind/avataaars.svg" alt=""/>
+            <img class="mb-12 h-64 mx-auto" src="https://gotechark.com/wp-content/uploads/2023/09/banner-min.png" alt=""/>
         </figure>
         <h1 class="text-center uppercase text-white text-5xl lg:text-6xl font-bold  leading-none tracking-normal">
         A Digital Marketing Company You Can Trust
@@ -21,7 +21,7 @@ export default function Home1() {
             </svg>
             <span class="h-1 w-24 bg-white rounded-full mx-2"></span>
         </div>
-        <p class="px-12 text-center text-white text-xl font-normal font-sans">At TechArk, we solve business challenges and deliver digital innovation solutions with long-lasting impact. Our agency team of 120+ experienced custom software and website developers, designers, and digital marketers have won awards, changed businesses, and, most of all, gained the trust of clients big and small.</p>
+        <p class="px-12 w-600 m-auto text-center text-white text-xl font-normal font-sans">At TechArk, we solve business challenges and deliver digital innovation solutions with long-lasting impact. Our agency team of 120+ experienced custom software and website developers, designers, and digital marketers have won awards, changed businesses, and, most of all, gained the trust of clients big and small.</p>
     </section>
     <section class="bg-white -mt-12 py-16">
         <h1 class="text-center uppercase text-black text-4xl font-bold  leading-none tracking-normal">
@@ -35,26 +35,37 @@ export default function Home1() {
             </svg>
             <span class="h-1 w-24 bg-black rounded-full mx-2"></span>
         </div>
-        <div class="flex flex-col sm:flex-row sm:flex-wrap px-6 max-w-md md:max-w-6xl mx-auto">
-            <div class="w-full sm:w-1/2 md:w-1/3 p-4 rounded-lg">
-                <img alt="" class="rounded-lg" src="https://francescomansi.me/img/start-tailwind/portfolio/cabin.png"/>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/3 p-4">
-                <img alt="" class="rounded-lg" src="https://francescomansi.me/img/start-tailwind/portfolio/cake.png"/>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/3 p-4">
-                <img alt="" class="rounded-lg" src="https://francescomansi.me/img/start-tailwind/portfolio/circus.png"/>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/3 p-4">
-                <img alt="" class="rounded-lg" src="https://francescomansi.me/img/start-tailwind/portfolio/game.png"/>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/3 p-4">
-                <img alt="" class="rounded-lg" src="https://francescomansi.me/img/start-tailwind/portfolio/safe.png"/>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/3 p-4">
-              <img alt="" class="rounded-lg" src="https://francescomansi.me/img/start-tailwind/portfolio/submarine.png"/>
+       
+<div class="max-w-screen-2xl mx-auto px-4 py-16 lg:py-24 relative bg-white">
+    <div class="flex flex-col md:flex-row gap-2">
+        <div class="flex flex-1 flex-col">
+            <div class="flex flex-1 flex-col">
+                
+                <img class="object-cover h-full" src='https://gotechark.com/wp-content/uploads/2023/08/Johns-Brothers.jpg' alt='' />
             </div>
         </div>
+        <div class="flex flex-1">
+            <div class="grid grid-cols-2 gap-2">
+              <div>
+                
+                <img class="object-cover h-full" src='https://gotechark.com/wp-content/uploads/2024/07/MarinersMuseum_thumb.jpg' alt='' />
+              </div>
+              <div>
+                
+                <img class="object-cover h-full" src='https://gotechark.com/wp-content/uploads/2024/06/Nauticus-thumb.jpg' alt='' />
+              </div>
+              <div>
+                
+                <img class="object-cover h-full" src='https://gotechark.com/wp-content/uploads/2024/06/NextDoor-K9-Solutions-thumb.jpg' alt='' />
+              </div>
+              <div>
+               
+                <img class="object-cover h-full" src='https://gotechark.com/wp-content/uploads/2024/06/vdmc-featured-img.jpg' alt='' />
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
     </section>
     <section id="about-section" class="bg-green-500 -mt-12 py-16">
         <h1 class="text-center uppercase text-white text-4xl font-bold  leading-none tracking-normal">
@@ -69,20 +80,18 @@ export default function Home1() {
             <span class="h-1 w-24 bg-white rounded-full mx-2"></span>
         </div>
         <div class="flex flex-col lg:flex-row max-w-lg md:max-w-2xl lg:max-w-3xl mx-auto">
-        <div class="mx-6 text-white text-xl py-4">Freelancer is a free tailwind css theme created from Freelancer theme by Start Bootstrap.
-The entire template was written using only the default configuration file. 
+        <div class="mx-6 text-white text-xl py-4">At TechArk, we solve business challenges and deliver solutions with long-lasting impact. Our global team of 120+ experienced developers, designers and digital marketers have won awards, changed businesses and, most of all, gained the trust of clients big and small.
+        As digital innovation leaders, we stay true to the values that built our reputation for quality and reliability.
         </div>
-        <div class="mx-6 text-white text-xl py-4">
-            You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email
-            address to the contact form to make it fully functional!</div>
+        
         </div>
         <div class="flex justify-center py-8">
-            <button class="bg-transparent hover:bg-white hover:text-black text-white border-2 border-white font-normal py-3 px-5 rounded-lg inline-flex items-center">
+            <bautton class="bg-transparent hover:bg-white hover:text-black text-white border-2 border-white font-normal py-3 px-5 rounded-lg inline-flex items-center">
                 <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/>
                 </svg>
                 <span>Free Download!</span>
-            </button>
+            </bautton>
         </div>
     </section>
     <section class="bg-white -mt-12 py-16">
@@ -127,8 +136,7 @@ The entire template was written using only the default configuration file.
         <div class="flex flex-col md:flex-row text-white text-center">
             <div class="p-6 md:w-1/3">
                 <h1 class="uppercase text-2xl font-bold leading-none tracking-normal pb-5">Location</h1>
-                <p>Metropolitan City of Bari,<br/>
-                   70121, Italy</p>
+                <p>415 W York St #103 <br /> Norfolk, VA 23510</p>
             </div>
             <div class="p-6 md:w-1/3">
                 <h1 class="uppercase text-2xl font-bold  leading-none tracking-normal">Around the web</h1>
@@ -157,9 +165,11 @@ The entire template was written using only the default configuration file.
 
             </div>
             <div class="p-6 md:w-1/3">
-                <h1 class="uppercase text-2xl font-bold leading-none tracking-normal pb-5">About freelancer</h1>
-                <p class="text-xl break-normal">Freelance is a free to use, MIT licensed Tailwindcss theme created by
-                    <a class="text-green-500" href="https://twitter.com/framansi">Francesco Mansi</a>
+                <h1 class="uppercase text-2xl font-bold leading-none tracking-normal pb-5">Services</h1>
+                <p class="text-xl break-normal">Website Design Packages <br/>
+Hosting & Maintenance <br/>
+Software <br/>
+Digital Marketing
                 </p>
             </div>
         </div>
