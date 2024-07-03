@@ -17,7 +17,7 @@ export default function Header() {
    <div className="hidden md:block">
    <NavLink to={'/'}><span  className="px-4 uppercase text-white text-base font-bold whitespace-no-wrap font-Montserrat leading-normal tracking-tighter hover:text-green-500">Home</span></NavLink>
    <NavLink to={'/about'}><span className="px-4 uppercase text-white text-base font-bold whitespace-no-wrap font-Montserrat leading-normal tracking-tighter hover:text-green-500">About</span></NavLink>
-   <NavLink to={'/Contact'}><span className="px-4 uppercase text-white text-base font-bold whitespace-no-wrap font-Montserrat leading-normal tracking-tighter hover:text-green-500">Contact</span></NavLink>       
+   <NavLink to={'/Contact'}><span className="px-4 uppercase text-white text-base font-bold whitespace-no-wrap font-Montserrat leading-normal tracking-tighter hover:text-green-500">Services</span></NavLink>       
    </div>
     </div>
 </nav>

@@ -48,7 +48,7 @@ export default function Contact() {
                 __html: data?.services_section?.service_title,
               }}
             />
-             <div className="services lg:gap-8 gap-5 grid md:grid-cols-2 grid-cols-1">
+             <div className="services lg:gap-8 gap-5 md:px-10 grid md:grid-cols-1 lg:grid-cols-2 grid-cols-1">
               {(data?.services_section?.services || []).map((i, j) => (
                 <div
                   key={`${i?.title}-${j}`}
@@ -75,23 +75,25 @@ export default function Contact() {
             
            
         </Container>
-     
-        <div className="bg-white py-24 sm:py-32">
-        <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-12 xl:grid-cols-3">          
-          <ul role="list" className="grid gap-x-12 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+        <Container className="bg-white m-auto text-center md:px-10">
+        <h3 className="portfolio-title text-[46px] leading-[1.6] mt-3 font-medium text-gray-900" dangerouslySetInnerHTML={{ __html: data?.portfolio_section?.portfolio_title, }} />
+        </Container>
+        <Container className="bg-white pt-10 pb-24 m-auto md:px-10">
+        <div className="mx-auto grid gap-x-8 gap-y-20 px-6 lg:px-12 ">          
+          <ul role="list" className="lg:gap-8 gap-5 grid md:grid-cols-2 grid-cols-1">
             {data?.portfolio_section?.portfolio_list.map((item, i) => {
-              return <li key={i}>
-                <div className="flex items-center gap-x-6">
-                  <img className="h-16 w-16 rounded-full" src={item?.portfolio_image?.url} alt="" />
+              return <li className='' key={i}>
+                <div className="gap-x-6 flex-wrap justify-center">
+                  <img className="w-auto h-auto" src={item?.portfolio_image?.url} alt="" />
                   <div>
-                    <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900" dangerouslySetInnerHTML={{ __html: item?.page_title_h1 }} />
+                    <h3 className="text-[32px] leading-[1.6] mt-3 font-medium text-gray-900" dangerouslySetInnerHTML={{ __html: item?.page_title_h1 }} />
                   </div>
                 </div>
               </li>
             })}
           </ul>
         </div>
-      </div>
+      </Container>
     </>
   )
 }
